@@ -1,0 +1,219 @@
+
+
+.navbar{
+    background-color: rgba(105, 101, 101, 0.7) !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    
+}
+.delivery-scooter{
+    size: 30px;
+
+}
+.best-seller{
+    size: 30px;
+
+}
+.card{
+    cursor: pointer;
+}
+
+.maincard{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: gray !important;
+    flex-wrap: wrap;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    box-shadow: 2px 4px 5px gray;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 645px) {
+    .card1,.card2,.card3{
+        width: 100%;
+    }   }
+
+
+.card-text{
+    font-weight: bold;
+}
+
+
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container2 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+
+.newarrivals{
+    margin-top: 0px;
+}
+
+.card{
+    width: 250px;
+    margin-top: 20px;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: gray;
+
+}
+
+.heading{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+
+.heading > h1{
+    text-shadow: 2px 2px 4px blue;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: gray;
+    
+
+}
+.main-content{
+    display: flex;
+}
+
+.main-content > box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+    
+}
+
+.footer{
+    width: 100%;
+    background-color: gray;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.footer > div{
+    text-align: center;
+    
+}
+
+h4{
+    color: white;
+}
+
+.story{
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    text-align: justify;
+    
+}
+
+.story_pic{
+    display: inline-block;
+    
+}
+
+.story>h6{
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    line-height: 2;
+    text-align: center;
+}
+
+/* ---------------contact us page CSS Start---------------------- */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/* ---------------contact us page CSS End---------------------- */
+
